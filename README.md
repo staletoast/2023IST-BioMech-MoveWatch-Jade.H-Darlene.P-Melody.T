@@ -10,6 +10,6 @@ I intend to make a biomedical device that helps Michelle make changes to her sed
 ![Biomedical solution flowchart](https://github.com/TempeHS/2023IST-BioMech-MoveWatch-Jade.H-Darlene.P-Melody.T/assets/124547231/04d36566-1ccc-4635-8ad3-784af20ed697)
 
  ## Developers:
- - Jade: creator of MoveWatch
- - Darlene: cool team member
- - Melody: cool team member
+ - Jade: creator of MoveWatch @SuspiciousAstronaut
+ - Darlene: cool team member @buttertoasst
+ - Melody: cool team member @staletoast
