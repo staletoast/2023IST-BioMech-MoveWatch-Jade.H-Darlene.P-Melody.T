@@ -15,6 +15,6 @@ We intend to make a biomedical device that helps Michelle make changes to her se
  - Melody: cool team member
 
 ## Task list:
-- [ ] jade: finish README
-- [ ] darlene: finish accelerometer - if else statement
-- [ ] melody: finish step counter
+- [ ] Jade: finish README
+- [ ] Darlene: finish accelerometer - if else statement
+- [ ] Melody: finish step counter
