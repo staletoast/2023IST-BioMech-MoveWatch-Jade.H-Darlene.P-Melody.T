@@ -25,10 +25,8 @@ void setup()
 
 }
 
-void loop()
-{
-  if (!LIS)
-  {
+void loop() {
+  if (!LIS) {
     Serial.println("LIS3DHTR didn't connect.");
     while (1)
       ;
@@ -39,13 +37,11 @@ void loop()
     Serial.print("y:"); Serial.print(LIS.getAccelerationY()); Serial.print("  ");
     Serial.print("z:"); Serial.println(LIS.getAccelerationZ());
 
-  if (LIS.getAccelerationX(), LIS.getAccelerationY(), LIS.getAccelerationZ() < 1.2)
-  {
+  if (LIS.getAccelerationX(), LIS.getAccelerationY(), LIS.getAccelerationZ() < 1.2) {
     Serial.print("Get Active!");
     printToOLED ("Get Active!");
   }
-  else 
-  {
+  else {
     Serial.print("wow you're active");
   }
 }
