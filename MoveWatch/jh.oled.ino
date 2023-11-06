@@ -3,6 +3,9 @@
 #include <Wire.h>
 #include <U8g2lib.h>
 #include <Arduino.h>
+#include "arduino_bma456.h"
+
+uint32_t step = 0;
 
 LIS3DHTR<TwoWire> LIS; //IIC
 #define WIRE Wire

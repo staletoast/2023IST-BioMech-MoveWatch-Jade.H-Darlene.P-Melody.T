@@ -1,7 +1,5 @@
 #include "arduino_bma456.h"
 
-uint32_t step = 0;
-
 void setupStep(void) {    
     Serial.begin(9600);
     Serial.println("BMA456 Step Counter");
