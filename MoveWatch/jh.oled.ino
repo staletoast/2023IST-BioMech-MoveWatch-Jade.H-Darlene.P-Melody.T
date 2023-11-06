@@ -9,7 +9,7 @@ LIS3DHTR<TwoWire> LIS; //IIC
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SDA, /* reset=*/ U8X8_PIN_NONE);  // High speed I2C
 
 
-void setup()
+void setupOLED()
 {
   u8g2.begin();
   Serial.begin(9600);
@@ -25,7 +25,7 @@ void setup()
 
 }
 
-void loop() {
+void loopOLED() {
   if (!LIS) {
     Serial.println("LIS3DHTR didn't connect.");
     while (1)
@@ -39,9 +39,10 @@ void loop() {
 
   if (LIS.getAccelerationX(), LIS.getAccelerationY(), LIS.getAccelerationZ() < 1.2) {
     Serial.print("Get Active!");
-    printToOLED ("Get Active!");
+    
   }
   else {
     Serial.print("wow you're active");
+    printToOLED (myStep());
   }
 }

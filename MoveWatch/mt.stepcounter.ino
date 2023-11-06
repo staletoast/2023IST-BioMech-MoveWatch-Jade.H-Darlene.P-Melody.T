@@ -2,7 +2,7 @@
 
 uint32_t step = 0;
 
-void setup(void) {    
+void setupStep(void) {    
     Serial.begin(9600);
     Serial.println("BMA456 Step Counter");
     
@@ -10,11 +10,12 @@ void setup(void) {
     bma456.stepCounterEnable();
 }
 
-void loop(void) {   
+void loopStep(void) {   
   step = bma456.getStepCounterOutput();
 
   Serial.print("Step: ");
   Serial.println(step);
+  printToOLED (step);
     
   delay(1000);
 }
