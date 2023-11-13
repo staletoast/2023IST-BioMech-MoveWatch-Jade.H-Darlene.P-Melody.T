@@ -24,6 +24,7 @@ notes for you:
 
 #include <Grove_LED_Bar.h>
 
+int LED_BAR_10 = 8;
 //BE SURE USE CORRESPONDING DEVICE
 //Grove_LED_Bar bar(6, 7, 0, LED_CIRCULAR_24);
 //FOR LED_BAR_10
