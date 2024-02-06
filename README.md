@@ -15,7 +15,7 @@ We intend to make a biomedical device that helps Michelle make changes to her se
  - Melody: cool team member
 
 ## Task list:
-- [ ] Jade: finish OLED
-- [ ] finish accelerometer
-- [ ] Darlene: finish health bar
-- [ ] Melody: finish step counter
+- [✓] Jade: finish OLED
+- [✓] finish accelerometer
+- [✓] Darlene: finish health bar
+- [✓] Melody: finish step counter
